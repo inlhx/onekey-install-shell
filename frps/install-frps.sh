@@ -5,7 +5,6 @@ export PATH
 #   System Required:  CentOS Debian or Ubuntu (32bit/64bit)
 #   Description:  A tool to auto-compile & install frps on Linux
 #   Author: Clang
-#   Intro:  http://koolshare.cn/forum-72-1.html
 #===============================================================================================
 program_name="frps"
 version="1.8.5"
@@ -13,8 +12,8 @@ str_program_dir="/usr/local/${program_name}"
 program_init="/etc/init.d/${program_name}"
 program_config_file="frps.ini"
 ver_file="/tmp/.frp_ver.sh"
-program_version_link="https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/version.sh"
-str_install_shell=https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh
+program_version_link="https://raw.githubusercontent.com/inlhx/onekey-install-shell/master/frps/version.sh"
+str_install_shell=https://raw.githubusercontent.com/inlhx/onekey-install-shell/master/frps/install-frps.sh
 shell_update(){
     fun_clangcn "clear"
     echo "Check updates for shell..."
@@ -50,8 +49,6 @@ fun_clangcn(){
     echo "|        frps for Linux Server, Written by Clang          |"
     echo "+---------------------------------------------------------+"
     echo "|     A tool to auto-compile & install frps on Linux      |"
-    echo "+---------------------------------------------------------+"
-    echo "|    Intro: http://koolshare.cn/thread-65379-1-1.html     |"
     echo "+---------------------------------------------------------+"
     echo ""
 }
